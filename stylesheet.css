@@ -4,6 +4,11 @@
 
 @import url("https://fonts.googleapis.com/css?family=Bungee+Outline|Londrina+Outline|Bungee+Hairline");
 
+/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');*/
+
+/*NEON SIGN*/
+
+
 .neon {
   position: relative;
   top: 50%;
@@ -52,10 +57,212 @@
   }
 }
 
+/*BIRD HOUSE*/
+
+.roof {
+  position: absolute;
+  border-radius:0.3em;
+  width: 12em;
+  height: 1.6em;
+  background: #ed7186;
+  margin: auto;
+  top: 1.4em;
+  left: -1.5em;
+}
+
+.roof.left {
+  transform: rotate(-50deg);
+}
+
+.roof.right {
+  transform: translate(50%, 0) rotate(50deg);
+}
+
+.top-wall {
+  position: absolute;
+  top: -2em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 6em solid transparent;
+  border-right: 6em solid transparent;
+  border-bottom: 9em solid black;
+  z-index: -1;
+}
+
+.bottom-wall {
+  position: absolute;
+  border-top: 8em solid black;
+  border-left: 2em solid transparent;
+  border-right: 2em solid transparent;
+  height: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 7em;
+  width: 12em;
+  z-index: -1;
+}
+
+.peep-hole {
+  position: relative;
+  top: -10em;
+  margin: auto;
+  width: 90%;
+  height: 6em;
+  background: pink;
+  border-radius: 10em;
+}
+
+.pinnochio {
+  position: relative;
+  top: -9em;
+  margin: auto;
+  width: 20%;
+  height: 1.6em;
+  background: white;
+  border-radius: 100%;
+}
+
+.post {
+  position: relative;
+  top: 5em;
+  margin: auto;
+  width: 1.5em;
+  height: 90%;
+  background: #704938;
+  border-radius: 0.8em;
+  z-index: -2;
+}
+
+.house-container {
+  margin: auto;
+  position: relative;
+  height: 100vh;
+  /*   width:100%; */
+  margin-top: 12em;
+  display: block;
+  width: 15em;
+/*     overflow:auto; */
+}
+
+
+
+/*EYES*/
+
+.eye {
+  position: relative;
+  margin-left: 18%;
+    margin-top:12%;
+  height: 35%;
+  width: 20%;
+  border-radius: 100%;
+  background-color: #ffffff;
+  float: left;
+  overflow: hidden;
+}
+
+.pupil {
+  position: relative;
+  margin-top: 30%;
+  margin-left: 25%;
+  height: 50%;
+  width: 50%;
+  border-radius: 100%;
+  background-color: #000000;
+}
+
+
+/*TEXTBOX*/
+.button-text {
+  font-size: 1.1em;
+  color: white;
+}
+
+.button {
+    position:absolute;
+      left: 0;
+  right: 0;
+  margin: auto;
+  width: 18em;
+  height: 4em;
+  line-height: 4em;
+  border-radius: 0.6em;
+    
+/*  margin: auto;*/
+}
+
+.button.main {
+  background: #ed7186;
+  text-align: center;
+          top:16em;
+}
+
+.button.shadow {
+  position: absolute;
+  background: #474747;
+  z-index: -1;
+          top:16.5em;
+}
+
+.item {
+  width: 16em;
+  height: 4em;
+  line-height: 4em;
+  margin: auto;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.item.one {
+  background: #262b77;
+}
+
+.item.two {
+  background: #f2ee9d;
+}
+
+.button-container {
+  width: 100%;
+  height: 4em;
+  padding: 0;
+/*    position:absolute;*/
+}
+
+.items{
+    position:absolute;
+/*  margin-top:-0em;*/
+/*    top:-48.8em;*/
+    left:0;
+    right:0;
+          top:20.5em;
+    margin:auto;
+}
+
+.page-container {
+      margin: auto;
+  position: relative;
+  height: 100vh;
+     width:100%;
+  display: block;
+/*  width: 15em;*/
+/*     overflow:auto; */
+}
+
+a {
+    color: #ededed!important;
+}
+
+/*BODY*/
+
 body {
+  position: relative;
+  background-color: #eae1ed!important;
+  line-height: normal;
+  vertical-align: middle;
+  width: 100%;
   height: 100%;
-  background-color: #142739;
-  display: flex;
-  justify-content: center;
-  align-items: middle;
+  overflow: hidden;
 }
