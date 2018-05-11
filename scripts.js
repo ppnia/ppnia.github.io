@@ -2,6 +2,17 @@
 
 $(document).ready(function() {
     
+    var post =  $(".post")
+            
+    $(window).resize(function(){
+        var height2 = document.documentElement.clientHeight - post.offset().top/2;
+        post.css({
+            "height": height2
+        });
+    }).resize();
+    
+        
+    
 //moving the eyes
 $("body").mousemove(function(event) {
   var eye = $(".eye");

@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Bungee+Outline|Londrina+Outline|Bungee+Hairline");
 
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
 /*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');*/
 
 /*NEON SIGN*/
@@ -66,7 +67,7 @@
   height: 1.6em;
   background: #ed7186;
   margin: auto;
-  top: 1.4em;
+  top: 10.4em;
   left: -1.5em;
 }
 
@@ -80,7 +81,7 @@
 
 .top-wall {
   position: absolute;
-  top: -2em;
+  top: 7em;
   left: 0;
   right: 0;
   margin: auto;
@@ -101,7 +102,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  top: 7em;
+  top: 14em;
   width: 12em;
   z-index: -1;
 }
@@ -127,13 +128,15 @@
 }
 
 .post {
-  position: relative;
-  top: 5em;
+  position: absolute;
+  top: 12em;
+    left:0;
+    right:0;
+    margin:none;
   margin: auto;
   width: 1.5em;
-  height: 90%;
+  height: 10%;
   background: #704938;
-  border-radius: 0.8em;
   z-index: -2;
 }
 
@@ -141,11 +144,8 @@
   margin: auto;
   position: relative;
   height: 100vh;
-  /*   width:100%; */
-  margin-top: 12em;
   display: block;
   width: 15em;
-/*     overflow:auto; */
 }
 
 
@@ -183,21 +183,20 @@
 
 .button {
     position:absolute;
-      left: 0;
+    left: 0;
   right: 0;
   margin: auto;
   width: 18em;
   height: 4em;
   line-height: 4em;
   border-radius: 0.6em;
-    
-/*  margin: auto;*/
 }
 
 .button.main {
   background: #ed7186;
   text-align: center;
-          top:16em;
+    top:16em;
+  font-family: "cuprum", sans-serif;
 }
 
 .button.shadow {
@@ -217,28 +216,31 @@
 }
 
 .item.one {
-  background: #262b77;
+/*  background: #262b77;*/
+background: #2d415a;
+    font-family: "cuprum", sans-serif;
 }
 
 .item.two {
-  background: #f2ee9d;
+/*  background: #f2ee9d;*/
+    background: #717d8c;
+  font-family: "cuprum", sans-serif;
 }
 
 .button-container {
   width: 100%;
-  height: 4em;
-  padding: 0;
-/*    position:absolute;*/
+  height: 35em;
+    top:7em;
+    position:absolute;
 }
 
 .items{
     position:absolute;
-/*  margin-top:-0em;*/
-/*    top:-48.8em;*/
     left:0;
     right:0;
           top:20.5em;
     margin:auto;
+    overflow-y:auto;
 }
 
 .page-container {
@@ -247,8 +249,7 @@
   height: 100vh;
      width:100%;
   display: block;
-/*  width: 15em;*/
-/*     overflow:auto; */
+     overflow:auto; 
 }
 
 a {
