@@ -65,7 +65,7 @@
   border-radius:0.3em;
   width: 12em;
   height: 1.6em;
-  background: #ed7186;
+  background: #363e50;
   margin: auto;
   top: 10.4em;
   left: -1.5em;
@@ -89,13 +89,13 @@
   height: 0;
   border-left: 6em solid transparent;
   border-right: 6em solid transparent;
-  border-bottom: 9em solid black;
+  border-bottom: 9em solid #e7694e;
   z-index: -1;
 }
 
 .bottom-wall {
   position: absolute;
-  border-top: 8em solid black;
+  border-top: 8em solid #e7694e;
   border-left: 2em solid transparent;
   border-right: 2em solid transparent;
   height: 0;
@@ -113,7 +113,7 @@
   margin: auto;
   width: 90%;
   height: 6em;
-  background: pink;
+  background: #f39783;
   border-radius: 10em;
 }
 
@@ -123,7 +123,7 @@
   margin: auto;
   width: 20%;
   height: 1.6em;
-  background: white;
+  background: #45444d;
   border-radius: 100%;
 }
 
@@ -136,7 +136,7 @@
   margin: auto;
   width: 1.5em;
   height: 10%;
-  background: #704938;
+  background: #7e5a49;
   z-index: -2;
 }
 
@@ -193,7 +193,7 @@
 }
 
 .button.main {
-  background: #ed7186;
+  background: #51595b;
   text-align: center;
     top:16em;
   font-family: "cuprum", sans-serif;
@@ -212,7 +212,7 @@
   line-height: 4em;
   margin: auto;
   text-align: center;
-  opacity: 0.8;
+/*  opacity: 0.8;*/
 }
 
 .item.one {
@@ -260,7 +260,7 @@ a {
 
 body {
   position: relative;
-  background-color: #eae1ed!important;
+  background-color: #dedede!important;
   line-height: normal;
   vertical-align: middle;
   width: 100%;
