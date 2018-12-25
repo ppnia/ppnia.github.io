@@ -53,7 +53,7 @@ var button = $(".button.main");
 
 $(".collapse").on("show.bs.collapse", function() {
   button.css({
-    "background-color": "#ba5d6c",
+    "background-color": "#3f4242",
     "box-shadow": "1em #666",
     transform: "translateY(0.3em)"
   });
@@ -61,7 +61,7 @@ $(".collapse").on("show.bs.collapse", function() {
 
 $(".collapse").on("hide.bs.collapse", function() {
   button.css({
-    "background-color": "#ed7186",
+    "background-color": "#51595b",
     "box-shadow": "0em #666",
     transform: "translateY(-0.3em)"
   });
